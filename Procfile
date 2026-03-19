@@ -1,0 +1,1 @@
+worker: python schoolmboy_3bot.py
