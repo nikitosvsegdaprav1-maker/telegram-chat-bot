@@ -4,8 +4,10 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import ReplyKeyboardMarkup
 from aiogram.utils import executor
 
-TOKEN = "8543870086:AAHwUEFzbzEHKGZ_QBx-SKEjQLg_WDavr84"
-ADMIN_ID = 5340788971
+
+
+TOKEN = os.getenv("TOKEN")
+ADMIN_ID = int(os.getenv("ADMIN_ID"))
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
