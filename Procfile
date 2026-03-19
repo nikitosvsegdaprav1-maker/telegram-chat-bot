@@ -1,1 +1,1 @@
-worker: python schoolmboy_3bot.py
+web: python schoolmboy_3bot.py
