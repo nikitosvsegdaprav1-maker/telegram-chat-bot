@@ -57,7 +57,7 @@ async def start(msg: types.Message):
     register_user(msg.from_user)
 
     await msg.answer(
-        "👋 Добро пожаловать!\n\n💬 Анонимный чат\n❤️ Лайкай — получай мэтчи",
+        "👋 Добро пожаловать!\n\n💬 Анонимный чат мбоу сош 3\n❤️ Лайкай — получай мэтчи",
         reply_markup=main_kb
     )
 
